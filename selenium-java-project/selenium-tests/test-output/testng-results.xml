@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="4" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-03-08T00:45:40 IST" name="OrangeHRM Test Suite" finished-at="2025-03-08T00:49:07 IST" duration-ms="206412">
+    <groups>
+    </groups>
+    <test started-at="2025-03-08T00:45:40 IST" name="User Tests" finished-at="2025-03-08T00:49:07 IST" duration-ms="206412">
+      <class name="com.automation.tests.LoginTest">
+        <test-method is-config="true" signature="setupReport()[pri:0, instance:com.automation.tests.LoginTest@34a3d150]" started-at="2025-03-08T00:45:40 IST" name="setupReport" finished-at="2025-03-08T00:45:40 IST" duration-ms="301" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupReport -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.automation.tests.LoginTest@34a3d150]" started-at="2025-03-08T00:45:40 IST" name="setup" finished-at="2025-03-08T00:46:01 IST" duration-ms="20589" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testInvalidLogin()[pri:0, instance:com.automation.tests.LoginTest@34a3d150]" started-at="2025-03-08T00:46:01 IST" name="testInvalidLogin" finished-at="2025-03-08T00:46:10 IST" duration-ms="8565" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidLogin -->
+        <test-method signature="testValidLogin()[pri:0, instance:com.automation.tests.LoginTest@34a3d150]" started-at="2025-03-08T00:46:10 IST" name="testValidLogin" finished-at="2025-03-08T00:46:11 IST" duration-ms="1788" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidLogin -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.automation.tests.LoginTest@34a3d150]" started-at="2025-03-08T00:46:11 IST" name="teardown" finished-at="2025-03-08T00:46:12 IST" duration-ms="165" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="tearDownReport()[pri:0, instance:com.automation.tests.LoginTest@34a3d150]" started-at="2025-03-08T00:49:07 IST" name="tearDownReport" finished-at="2025-03-08T00:49:08 IST" duration-ms="442" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownReport -->
+      </class> <!-- com.automation.tests.LoginTest -->
+      <class name="com.automation.tests.UsersTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.automation.tests.UsersTest@368f2016]" started-at="2025-03-08T00:46:12 IST" name="setup" finished-at="2025-03-08T00:46:27 IST" duration-ms="15800" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testDropdownFilters()[pri:0, instance:com.automation.tests.UsersTest@368f2016]" started-at="2025-03-08T00:46:27 IST" name="testDropdownFilters" finished-at="2025-03-08T00:46:59 IST" duration-ms="31561" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDropdownFilters -->
+        <test-method signature="testPagination()[pri:0, instance:com.automation.tests.UsersTest@368f2016]" started-at="2025-03-08T00:46:59 IST" name="testPagination" finished-at="2025-03-08T00:49:02 IST" duration-ms="122866" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of element located by By.xpath: //div[contains(@class, 'oxd-table-card --mobile')] (tried for 110 second(s) with 500 milliseconds interval)
+Build info: version: '4.29.0', revision: '5fc1ec94cb'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.4', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.142, chrome: {chromedriverVersion: 133.0.6943.141 (2a5d6da0d61..., userDataDir: /var/folders/_d/_w_qg7ds3fg...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52529}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:52529/devtoo..., se:cdpVersion: 133.0.6943.142, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e93b1bdf51645906a410f2a963709541]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //div[contains(@class, 'oxd-table-card --mobile')] (tried for 110 second(s) with 500 milliseconds interval)
+Build info: version: '4.29.0', revision: '5fc1ec94cb'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.4', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.142, chrome: {chromedriverVersion: 133.0.6943.141 (2a5d6da0d61..., userDataDir: /var/folders/_d/_w_qg7ds3fg...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52529}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:52529/devtoo..., se:cdpVersion: 133.0.6943.142, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e93b1bdf51645906a410f2a963709541
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at com.automation.pages.UsersPage.getUserCountOnPage(UsersPage.java:32)
+at com.automation.tests.UsersTest.testPagination(UsersTest.java:30)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPagination -->
+        <test-method signature="testUserListDisplay()[pri:0, instance:com.automation.tests.UsersTest@368f2016]" started-at="2025-03-08T00:49:02 IST" name="testUserListDisplay" finished-at="2025-03-08T00:49:07 IST" duration-ms="4759" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUserListDisplay -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.automation.tests.UsersTest@368f2016]" started-at="2025-03-08T00:49:07 IST" name="teardown" finished-at="2025-03-08T00:49:07 IST" duration-ms="241" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.automation.tests.UsersTest -->
+    </test> <!-- User Tests -->
+  </suite> <!-- OrangeHRM Test Suite -->
+</testng-results>
